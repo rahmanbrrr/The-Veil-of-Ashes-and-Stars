@@ -24,7 +24,13 @@ You wake up in a fractured world with no memory. Guided by a mysterious force, y
 1. Start reading from the int main() in main.c .
 2. Read the function to understand the concept.
 3. If you want to change anything or add any function, make sure to add the function in the respected header file(.h).
-4. compile it by running the command in the command prompt(windows)
+4. Compile it by running the command in the Terminal (macOS):
+   ```
+   gcc main.c combat1.c maze.c tictactoe.c login.c clear.c -o game
+   ```
+5. compile it by running the command in the command prompt(windows)
     ```
     gcc main.c combat1.c maze.c tictactoe.c login.c clear.c -o game.exe
     ```
+    
+   
